@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array
 // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii
+// https://www.codingninjas.com/codestudio/problems/rotated-array_1093219
 
 #include <iostream>
 #include <vector>
