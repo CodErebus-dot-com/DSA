@@ -1,11 +1,11 @@
-// https://leetcode.com/problems/find-the-middle-index-in-array
-// same as find pivot index
+// https://leetcode.com/problems/find-pivot-index
+// same as find the middle index in array
 
 #include <iostream>
 #include <vector>
 using namespace std;
 
-int findMiddleIndex(vector<int>& nums) {
+int pivotIndex(vector<int>& nums) {
     int sum=0, lSum=0, n=nums.size();
     
     for(int i=0; i<n; i++) sum+=nums[i];
@@ -19,6 +19,6 @@ int findMiddleIndex(vector<int>& nums) {
 
 int main() {
     vector<int> nums({2,3,-1,8,4});
-    int result = findMiddleIndex(nums);
-    cout << result;
+    int pivot = pivotIndex(nums);
+    cout << pivot;
 }
