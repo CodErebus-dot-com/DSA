@@ -1,4 +1,5 @@
 // https://www.codingninjas.com/codestudio/problems/first-and-last-position-of-an-element-in-sorted-array_1082549
+// https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
 #include<vector>
 #include<iostream>
 using namespace std;
@@ -40,11 +41,7 @@ pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
 
 int main() {
     vector<int> arr({1, 2, 2, 2, 2, 3, 4, 7, 8, 8 });
-    int n=10, k=8;
+    int n=10, k=18;
     pair<int,int>result = firstAndLastPosition(arr, n, k);
     cout<<result.first << " " << result.second << endl;
-
-    // program to find the frequency of an element
-    int frequency = result.second-result.first+1;
-    cout<< frequency;
 }
