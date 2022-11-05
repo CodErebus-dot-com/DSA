@@ -1,4 +1,7 @@
 // https://leetcode.com/problems/search-a-2d-matrix/
+// https://www.codingninjas.com/codestudio/problems/search-in-a-2d-matrix_1082556
+// https://www.codingninjas.com/codestudio/problems/search-in-a-2d-matrix-ii_1089637
+// https://www.codingninjas.com/codestudio/problems/search-in-a-2d-matrix_980531
 #include <iostream>
 #include <vector>
 using namespace std;
