@@ -4,10 +4,10 @@
 using namespace std;
 
 int floorFinder(vector<int> v, int n, int k) {
-    int s=0, e=n-1, m, f;
+    int s=0, e=n-1, f;
 
     while(s<=e) {
-        m=s+(e-s)/2;
+        int m=s+(e-s)/2;
 
         if(v[m] == k) return v[m];
         else if(v[m]<k) {
