@@ -1,5 +1,6 @@
 // https://www.codingninjas.com/codestudio/problems/aggressive-cows_1082559
 #include<iostream>
+#include <algorithm>
 #include<vector>
 using namespace std;
 
@@ -28,4 +29,12 @@ int aggressiveCows(vector<int> &stalls, int k)
         mid=start+(end-start)/2;
     }
     return ans;
+}
+
+int main() {
+    vector<int> stalls({4, 2, 1, 3, 6});
+    int k=2;
+
+    int result = aggressiveCows(stalls, k);
+    cout << result;
 }

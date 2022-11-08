@@ -36,13 +36,8 @@ long long ayushGivesNinjatest(ull n, ull m, vector<ull> time) {
 }
 
 int main() {
-    ull n, m;
-    cin >> m >> n;
-
-    vector<ull> time(n);
-    for(int i=0; i<n; i++) {
-        cin >> time[i];
-    }
+    ull n=5, m=3;
+    vector<ull> time({1, 2, 2, 3, 1});
 
     ull result = ayushGivesNinjatest(n, m, time);
     cout << result;

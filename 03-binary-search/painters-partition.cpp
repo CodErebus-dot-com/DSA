@@ -1,4 +1,4 @@
-// https://www.codingninjas.com/codestudio/problems/pauller's-partition-problem_1089557
+// https://www.codingninjas.com/codestudio/problems/painter-s-partition-problem_1089557
 #include <iostream>
 #include <vector>
 #include<algorithm>
@@ -37,13 +37,8 @@ ull findLargestMinDistance(vector<ull> &boards, ull k)
 }
 
 int main() {
-    ull n, k;
-    cin >> n >> k;
-
-    vector<ull> boards(n);
-    for(ull i=0; i<n; i++) {
-        cin >> boards[i];
-    }
+    ull k=2;
+    vector<ull> boards({10, 20, 30, 40});
 
     ull result = findLargestMinDistance(boards, k);
     cout << result;
