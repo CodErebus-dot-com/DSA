@@ -40,3 +40,14 @@ int main() {
   cout << "Sorted array in Acsending Order:\n";
   printArray(data, size);
 }
+
+/*
+  a. Space complexity -> O(1)
+  b. Time complexity:
+    - Worst case -> O(n^2)
+    - Best case -> O(n^2)
+    - Regardless of whether the array is sorted or not, comparisons will be made
+  c. Use case -> for arrays/vectors with small sizes
+  d. Stability -> No
+    - The order of identical elements in array may or may not be maintained post sorting
+*/
