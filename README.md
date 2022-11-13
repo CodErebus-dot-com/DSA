@@ -4,3 +4,4 @@
 - Basics
 - Arrays
 - Binary Search
+- Sorting
