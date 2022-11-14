@@ -5,3 +5,4 @@
 - Arrays
 - Binary Search
 - Sorting
+- String
