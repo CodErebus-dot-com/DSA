@@ -3,13 +3,12 @@
 using namespace std;
 
 bool checkSpecialChar(char s){
-    if(s >= 'a' && s <= 'z' || s >= '0' && s <= '9') return false;
-    return true;
+    return !(s>='a' && s<='z' || s>='0' && s<='9');
 }
 
 char toLowerCase(char s) {
-    if(s >= 'a' && s <= 'z' || s >= '0' && s <= '9') return s;
-    else return s-'A'+'a';
+    if(s>='A' && s<='Z') return s-'A'+'a';
+    return s;
 }
 
 bool checkPalindrome(string s, int n)
