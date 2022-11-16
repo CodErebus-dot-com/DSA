@@ -6,3 +6,4 @@
 - Binary Search
 - Sorting
 - String
+- Math
