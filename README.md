@@ -7,3 +7,4 @@
 - Sorting
 - String
 - Math
+- Matrices
