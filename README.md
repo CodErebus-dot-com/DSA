@@ -6,5 +6,5 @@
 - Binary Search
 - Sorting
 - String
-- Math
 - Matrices
+- Math
