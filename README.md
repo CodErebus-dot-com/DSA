@@ -1,5 +1,5 @@
 # DSA
-### -:Road to mastering DSA:-
+### Road to mastering DSA:
 
 - Basics
 - Arrays
